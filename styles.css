@@ -1815,15 +1815,37 @@ span[data-lang="sq"] {
 }
 
 
-.avatar-mona {
-  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa.jpg");
+
+
+.testimonial-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  margin-bottom: 0.8rem;
+  background: radial-gradient(circle at 30% 30%, #fff 0, #f3d8a1 42%, #c69334 100%);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
 }
 
-.avatar-skanderbeg {
-  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Skanderbeg_(1550).jpg");
+.testimonial-avatar.has-photo {
+  color: transparent;
+  font-size: 0;
 }
 
-.avatar-teresa {
-  background-image: url("https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Mother_Teresa_(50548714236).jpg");
+
+.testimonial-avatar-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 999px;
+  opacity: 1;
+  pointer-events: none;
 }
 
