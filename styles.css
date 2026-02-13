@@ -1719,12 +1719,39 @@ span[data-lang="sq"] {
 @media (max-width: 480px) {
   .hero {
     padding-top: 3.6rem;
-    .header-inner {
-    flex-wrap: wrap;
-    align-items: flex-start;
-    header {
+  }
+
+  header {
     position: relative;
   }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .brand {
+    width: 100%;
+  }
+
+  .header-cta {
+    order: 1;
+    width: 100%;
+  }
+
+  .header-actions {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+  }
+
+  .footer-links {
+    align-items: flex-start;
+  }
+}
 
   .header-inner {
     flex-direction: column;
