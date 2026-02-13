@@ -1722,7 +1722,29 @@ span[data-lang="sq"] {
     .header-inner {
     flex-wrap: wrap;
     align-items: flex-start;
+    header {
+    position: relative;
   }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .brand {
+    width: 100%;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header-cta {
+    margin-top: 0.35rem;
+  }
+
+}
 
   .header-actions {
     width: 100%;
