@@ -558,6 +558,14 @@ nav {
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.2);
 }
 
+.hero-panel-graphic img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
 .road-lines {
   position: absolute;
   inset: 42% -30%;
@@ -1763,7 +1771,11 @@ span[data-lang="sq"] {
 @media (max-width: 480px) {
   .hero {
     padding-top: 3.6rem;
+  
+  .hero-panel-graphic img {
+    object-fit: cover;
   }
+}
 
   .surface {
     padding: 2.1rem 1.4rem;
@@ -1848,4 +1860,5 @@ span[data-lang="sq"] {
   opacity: 1;
   pointer-events: none;
 }
+
 
