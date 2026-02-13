@@ -561,7 +561,7 @@ nav {
 .hero-panel-graphic img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   display: block;
 }
@@ -1772,9 +1772,6 @@ span[data-lang="sq"] {
   .hero {
     padding-top: 3.6rem;
   
-  .hero-panel-graphic img {
-    object-fit: cover;
-  }
 }
 
   .surface {
