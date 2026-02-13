@@ -1753,6 +1753,13 @@ span[data-lang="sq"] {
   }
 }
 
+
+@media (max-width: 960px) {
+  header {
+    position: static;
+  }
+}
+
 @media (max-width: 480px) {
   .hero {
     padding-top: 3.6rem;
